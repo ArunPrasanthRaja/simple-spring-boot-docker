@@ -2,7 +2,7 @@
 
 Spring Boot 2.3.0.M1 has just been released and it brings with it some interesting new features that can help you package up your Spring Boot application into Docker images.
 
-Spring Boot supports creating docker images with spring-boot-mave-plugin in 2 ways as:
+Spring Boot supports creating docker images with spring-boot-maven-plugin in 2 ways as:
 - Buildpacks
 - Layered jars
 
@@ -142,3 +142,9 @@ Removing intermediate container 510d3da5aeca
 Successfully built 46f61bcaf57d
 Successfully tagged simple-spring-boot-docker:latest
 ```
+
+** Push image to Docker registry**
+
+``` docker push mckshub/simple-spring-boot-docker:latest ```
+
+
